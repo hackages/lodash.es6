@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`chunk should chunk 1`] = `
+Array [
+  Array [
+    "a",
+  ],
+  Array [
+    "b",
+  ],
+  Array [
+    12,
+  ],
+  Array [
+    true,
+  ],
+  Array [
+    false,
+  ],
+  Array [
+    undefined,
+  ],
+  Array [
+    null,
+  ],
+  Array [
+    "aa",
+  ],
+]
+`;
+
+exports[`chunk should chunk 2`] = `
+Array [
+  Array [
+    "a",
+    "b",
+  ],
+  Array [
+    12,
+    true,
+  ],
+  Array [
+    false,
+    undefined,
+  ],
+  Array [
+    null,
+    "aa",
+  ],
+]
+`;
+
+exports[`chunk should chunk 3`] = `
+Array [
+  Array [
+    "a",
+    "b",
+    12,
+  ],
+  Array [
+    true,
+    false,
+    undefined,
+  ],
+  Array [
+    null,
+    "aa",
+  ],
+]
+`;
+
+exports[`chunk should chunk 4`] = `Array []`;
+
+exports[`chunk should chunk 5`] = `
+Array [
+  Array [
+    42,
+  ],
+]
+`;
+
+exports[`chunk should chunk 6`] = `Array []`;
+
+exports[`chunk should chunk 7`] = `Array []`;
+
+exports[`chunk should chunk 8`] = `Array []`;

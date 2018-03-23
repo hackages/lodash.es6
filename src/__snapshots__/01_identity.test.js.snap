@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`identity Should return the same value that has been passed 1`] = `1`;
+
+exports[`identity Should return the same value that has been passed 2`] = `Object {}`;
+
+exports[`identity Should return the same value that has been passed 3`] = `"Hackages"`;
+
+exports[`identity Should return the same value that has been passed 4`] = `1`;

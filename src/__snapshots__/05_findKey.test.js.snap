@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`findKey should work with functions 1`] = `"barney"`;
+
+exports[`findKey should work with objects 1`] = `"pebbles"`;

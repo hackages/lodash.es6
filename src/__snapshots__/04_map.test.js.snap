@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`map it should return the entire array as the third parameter 1`] = `
+Array [
+  Array [
+    1,
+    2,
+  ],
+  Array [
+    1,
+    2,
+  ],
+]
+`;
+
+exports[`map it should return the index 1`] = `
+Array [
+  0,
+  1,
+  2,
+]
+`;
+
+exports[`map it should work with the identity function 1`] = `
+Array [
+  1,
+  2,
+  3,
+  4,
+]
+`;

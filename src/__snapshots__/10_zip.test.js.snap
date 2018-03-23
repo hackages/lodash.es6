@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`zip should zip 1`] = `
+Array [
+  Array [
+    "a",
+    1,
+    true,
+  ],
+  Array [
+    "b",
+    2,
+    false,
+  ],
+]
+`;
+
+exports[`zip should zip 2`] = `
+Array [
+  Array [
+    "a",
+    1,
+    true,
+  ],
+  Array [
+    undefined,
+    2,
+    true,
+  ],
+  Array [
+    undefined,
+    undefined,
+    false,
+  ],
+]
+`;
+
+exports[`zip should zip 3`] = `
+Array [
+  Array [
+    "a",
+    1,
+    true,
+  ],
+  Array [
+    "b",
+    2,
+    undefined,
+  ],
+  Array [
+    "c",
+    undefined,
+    undefined,
+  ],
+]
+`;
+
+exports[`zip should zip 4`] = `
+Array [
+  Array [
+    "hello",
+    undefined,
+  ],
+]
+`;
+
+exports[`zip should zip 5`] = `
+Array [
+  Array [
+    32,
+  ],
+]
+`;
+
+exports[`zip should zip 6`] = `
+Array [
+  Array [
+    32,
+  ],
+]
+`;
+
+exports[`zip should zip 7`] = `Array []`;

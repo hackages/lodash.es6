@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`memoize recompute with new arguments 1`] = `
+Array [
+  42,
+  "hello",
+  true,
+]
+`;
+
+exports[`memoize recompute with new arguments 2`] = `
+Array [
+  43,
+]
+`;
+
+exports[`memoize should compute the value only once 1`] = `
+Array [
+  42,
+]
+`;
+
+exports[`memoize should compute the value only once 2`] = `
+Array [
+  42,
+]
+`;
+
+exports[`memoize should work with multiple arguments 1`] = `
+Array [
+  42,
+  "hello",
+  true,
+]
+`;
+
+exports[`memoize should work with multiple arguments 2`] = `
+Array [
+  42,
+  "hello",
+  true,
+]
+`;

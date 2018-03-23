@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`entries should pair values in a class 1`] = `
+Array [
+  Array [
+    "a",
+    32,
+  ],
+  Array [
+    "b",
+    45,
+  ],
+]
+`;
+
+exports[`entries should pair values in a function 1`] = `
+Array [
+  Array [
+    "a",
+    32,
+  ],
+  Array [
+    "b",
+    45,
+  ],
+]
+`;
+
+exports[`entries should pair values in an object 1`] = `
+Array [
+  Array [
+    "a",
+    32,
+  ],
+  Array [
+    "b",
+    45,
+  ],
+]
+`;

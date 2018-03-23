@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`forEachObjIndexed should map values of an object 1`] = `
+Array [
+  Array [
+    33,
+    "a",
+  ],
+]
+`;
+
+exports[`forEachObjIndexed should map values of an object 2`] = `
+Array [
+  Array [
+    undefined,
+    "a",
+  ],
+  Array [
+    null,
+    "b",
+  ],
+  Array [
+    true,
+    "c",
+  ],
+]
+`;
+
+exports[`forEachObjIndexed should map values of an object 3`] = `116`;
+
+exports[`forEachObjIndexed should map values of an object 4`] = `"My name is Antonio"`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`groupBy should group 1`] = `
+Object {
+  "F": Array [
+    Object {
+      "name": "Louise",
+      "sex": "F",
+    },
+  ],
+  "M": Array [
+    Object {
+      "name": "Robert",
+      "sex": "M",
+    },
+    Object {
+      "name": "Bob",
+      "sex": "M",
+    },
+  ],
+}
+`;

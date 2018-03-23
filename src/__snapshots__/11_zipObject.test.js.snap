@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`zipObject should zip 1`] = `
+Object {
+  "a": 1,
+  "b": 2,
+}
+`;
+
+exports[`zipObject should zip 2`] = `
+Object {
+  "a": 1,
+}
+`;
+
+exports[`zipObject should zip 3`] = `
+Object {
+  "a": 1,
+  "b": undefined,
+}
+`;
+
+exports[`zipObject should zip 4`] = `
+Object {
+  "hello": true,
+}
+`;
+
+exports[`zipObject should zip 5`] = `
+Object {
+  "32": false,
+}
+`;
+
+exports[`zipObject should zip 6`] = `
+Object {
+  "true": "or not",
+}
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flatten should flatten 1`] = `
+Array [
+  1,
+  2,
+  false,
+  Object {
+    "a": 32,
+  },
+  NaN,
+  null,
+  undefined,
+]
+`;
+
+exports[`flatten should flatten 2`] = `
+Array [
+  1,
+  2,
+  Array [
+    false,
+    Object {
+      "a": 32,
+    },
+  ],
+  NaN,
+  null,
+  Array [
+    Object {
+      "undefined": undefined,
+    },
+  ],
+]
+`;
+
+exports[`flatten should flatten 3`] = `
+Array [
+  Array [
+    Array [
+      Array [
+        Array [
+          Array [
+            Array [
+              Array [
+                Array [
+                  Array [
+                    Array [
+                      Array [
+                        "Sorry",
+                      ],
+                    ],
+                  ],
+                ],
+              ],
+            ],
+          ],
+        ],
+      ],
+    ],
+  ],
+]
+`;

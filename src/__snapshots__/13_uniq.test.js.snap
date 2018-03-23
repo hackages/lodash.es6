@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`uniq should remove duplicate 1`] = `
+Array [
+  1,
+  2,
+  3,
+  4,
+]
+`;
+
+exports[`uniq should remove duplicate 2`] = `
+Array [
+  1,
+]
+`;
+
+exports[`uniq should remove duplicate 3`] = `
+Array [
+  null,
+  true,
+]
+`;
+
+exports[`uniq should remove duplicate 4`] = `
+Array [
+  Object {
+    "a": 32,
+  },
+  Object {
+    "a": 32,
+  },
+  Object {
+    "a": 32,
+    "b": 21,
+  },
+]
+`;

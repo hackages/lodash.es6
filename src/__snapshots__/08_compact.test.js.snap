@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`compact should compact 1`] = `
+Array [
+  1,
+  2,
+  Object {
+    "a": 32,
+  },
+]
+`;

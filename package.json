@@ -1,0 +1,27 @@
+{
+  "name": "lodash.es6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@bitbucket.org:hackages/lodash.es6.git",
+  "author": "Hackages",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install",
+    "precommit": "lint-staged",
+    "format": "prettier --write 'src/**/*.js'",
+    "start": "jest"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "husky": "^0.14.3",
+    "jest": "^22.4.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "regenerator-runtime": "^0.11.1"
+  },
+  "lint-staged": {
+    "*.{js,css,scss,json,md}": ["prettier --write", "git add"]
+  }
+}

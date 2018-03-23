@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`flattenDeep should flatten recursively 1`] = `
+Array [
+  1,
+  2,
+  false,
+  Object {
+    "a": 32,
+  },
+  NaN,
+  null,
+  undefined,
+]
+`;
+
+exports[`flattenDeep should flatten recursively 2`] = `
+Array [
+  1,
+  2,
+  false,
+  Object {
+    "a": 32,
+  },
+  NaN,
+  null,
+  Object {
+    "undefined": undefined,
+  },
+]
+`;
+
+exports[`flattenDeep should flatten recursively 3`] = `
+Array [
+  "Sorry",
+]
+`;
